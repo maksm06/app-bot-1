@@ -1,0 +1,12 @@
+.one{
+    text-align: center;
+    border: 40px rgb(32, 45, 219) solid;
+    width: 80%;
+    background-color: rgb(32, 45, 219) ;
+    margin: auto;
+}
+.two{
+    width: 300px;
+    margin: auto;
+
+}
