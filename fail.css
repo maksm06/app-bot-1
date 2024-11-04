@@ -1,44 +1,39 @@
-.one{
-    <!DOCTYPE html>
-    <html lang="uk">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Привітальна сторінка</title>
-        <style>
-            .welcome {
-                text-align: center;
-                border: 40px rgb(32, 45, 219) solid;
-                width: 80%;
-                background-color: rgb(32, 45, 219);
-                margin: auto;
-                color: white;
-                padding: 20px;
-                font-family: Arial, sans-serif;
-            }
-            .welcome h1 {
-                color: rgb(255, 204, 0); /* Золотистий */
-                font-size: 2.5em;
-            }
-            .welcome p {
-                color: rgb(255, 255, 255); /* Білий */
-                font-size: 1.2em;
-            }
-            .welcome span {
-                color: rgb(255, 69, 0); /* Яскраво-помаранчевий */
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="welcome">
-            <h1>Ласкаво просимо!</h1>
-            <p>Ми <span>раді вас бачити</span> на нашому сайті. Бажаємо приємного перегляду!</p>
-        </div>
-    </body>
-    </html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
 }
-.go{
-    width: 300px;
-    margin: auto;
+.welcome {
+    text-align: center;
+    border: 40px rgb(32, 45, 219) solid;
+    width: 80%;
+    background-color: rgb(32, 45, 219);
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+}
+.welcome h1 {
+    color: rgb(255, 204, 0); /* Золотистий */
+    font-size: 2.5em;
+}
+.welcome p {
+    color: rgb(255, 255, 255); /* Білий */
+    font-size: 1.2em;
+}
+.welcome span {
+    color: rgb(255, 69, 0); /* Яскраво-помаранчевий */
+    font-weight: bold;
+}
+.content {
+    text-align: center;
+    margin-top: 30px;
+}
+.content p, .content div, .content b, .content i {
+    margin-bottom: 10px;
+}
+.go {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border: 2px solid #333;
 }
